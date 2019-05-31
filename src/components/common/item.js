@@ -8,7 +8,7 @@ const Item = (props) => {
   <div className='b2card-body'>
   <h1 className='b3 card-title'>{props.name}</h1>
   <h1 className='b4 card-text'>{props.price}</h1>
-  <button className='btn btn-sm btn-outline-info float-right'>Buy Now</button>
+  <button className='btn btn-sm btn-outline-info '>Buy Now</button>
   </div>
 
         </div>
