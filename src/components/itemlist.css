@@ -1,7 +1,12 @@
 .a1{
- height:500px;
+ height:800px;
  padding-top:10px;
 }
 .a2{
-  margin:15px;
+  margin:2px;
+}
+.a3{
+  height:460px;
+  width: 300px;
+ margin:10px;
 }
