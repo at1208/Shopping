@@ -1,4 +1,37 @@
 .b1{
-  height:600px;
-  width:300px;
+  height:300px;
+  width:400px;
+  margin-top: 80px;
+}
+.b2{
+  font-size: 20px;
+  height:18px;
+
+}
+
+.b4{
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ width: 110px;
+ color: white;
+ border-radius: 12px 12px 12px 12px;
+}
+.b5{
+  align-items: center;
+  margin-top: 3px;
+  width:50px;
+  height:19px;
+  font-size: 10px;
+}
+
+.b7{
+  padding-right: 15px;
+  margin: 3px;
+  /* background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000); */
+
 }
