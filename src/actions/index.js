@@ -10,3 +10,10 @@ export const Delete = (product) => {
     payload: product
   }
 }
+export const TotalAmount = (price) => {
+  return {
+    type: 'TOTAL',
+    payload: price
+
+  }
+}

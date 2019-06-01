@@ -1,6 +1,6 @@
 .b1{
   height:300px;
-  width:400px;
+  width:490px;
   margin-top: 80px;
 }
 .b2{
@@ -14,10 +14,19 @@
   background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
   background: linear-gradient(to right, #DD2476, #FF512F);
 
-
+margin-right:140px;
  width: 110px;
  color: white;
  border-radius: 12px 12px 12px 12px;
+}
+.b8{
+  color: white;
+  border-radius: 12px 12px 12px 12px;
+  background: #005C97;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width:170px;
 }
 .b5{
   align-items: center;
@@ -30,5 +39,7 @@
 .b7{
   padding-right: 15px;
   margin: 3px;
-   
+  width:270px;
+  margin-left: 90px;
+
 }
