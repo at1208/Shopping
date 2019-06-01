@@ -10,9 +10,9 @@
 }
 
 .b4{
-  background: #FF512F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FF512F;
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+  background: linear-gradient(to right, #DD2476, #FF512F);
 
 
  width: 110px;
@@ -30,8 +30,5 @@
 .b7{
   padding-right: 15px;
   margin: 3px;
-  /* background: #000000;
-  background: -webkit-linear-gradient(to right, #434343, #000000);
-  background: linear-gradient(to right, #434343, #000000); */
-
+   
 }

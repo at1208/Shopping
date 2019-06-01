@@ -4,3 +4,9 @@ export const Add = (product) => {
     payload: product
   }
 }
+export const Delete = (product) => {
+  return {
+    type: 'DELETE PRODUCT',
+    payload: product
+  }
+}
