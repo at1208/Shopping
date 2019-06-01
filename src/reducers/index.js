@@ -17,5 +17,5 @@ return initialState
 }
 export default combineReducers({
     product: productReducer,
-     Addedprice: AddReducer
+     AddedProduct: AddReducer
 })

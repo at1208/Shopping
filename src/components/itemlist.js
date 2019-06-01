@@ -2,9 +2,10 @@ import React from 'react';
 import './itemlist.css'
 import { connect } from 'react-redux'
 import { Add } from '../actions/index'
+import Checkout from './checkout'
 
 const ItemList = (props) => {
-console.log(props)
+ 
 
 
  const Items = props.items.product.map((e) => {
@@ -23,6 +24,9 @@ console.log(props)
           <div className='row justify-content-center '>
 
          {Items}
+         </div>
+         <div className='a4 container card shadow'>
+         <Checkout />
          </div>
          </div>
 }
