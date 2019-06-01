@@ -1,12 +1,11 @@
 .a1{
- height:800px;
- padding-top:10px;
+  height: 600px
 }
 .a2{
-  margin:2px;
+  margin:10px;
+  height:261px;
+  width:200px;
 }
 .a3{
-  height:460px;
-  width: 300px;
- margin:10px;
+  height:150px
 }

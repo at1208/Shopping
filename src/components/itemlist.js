@@ -1,39 +1,36 @@
 import React from 'react';
-import './itemlist.css';
-import Item from './common/item'
+import './itemlist.css'
 import { connect } from 'react-redux'
+import { Add } from '../actions/index'
 
 const ItemList = (props) => {
- 
-  return <div className='shadow container a1 card '>
-           <div className='row'>
-           <div className='row col-lg-8'>
-               <div className='a2 col-lg-4'>
-                    <Item price={props.macbook[0].price} name={props.macbook[0].name} path={props.macbook[0].imgpath}/>
-              </div>
-              <div  className='a2 col-lg-4'>
-                    <Item price={props.macbook[1].price} name={props.macbook[1].name} path={props.macbook[1].imgpath}/>
-              </div>
+console.log(props)
 
-              <div  className='a2 col-lg-4'>
-                    <Item price={props.macbook[2].price} name={props.macbook[2].name} path={props.macbook[2].imgpath}/>
-              </div>
-              <div  className='a2 col-lg-4'>
-                    <Item price={props.macbook[3].price} name={props.macbook[3].name} path={props.macbook[3].imgpath}/>
-              </div>
 
+ const Items = props.items.product.map((e) => {
+   return <div className='a2 card shadow text-center ' key={e.id}>
+          <img className= 'a3' src={e.imgpath} alt=''  />
+          <div className='card-body'>
+          <h6 className='card-title'>{e.name}</h6>
+          <h6 className='card-text'>{e.price}</h6>
+          <button onClick={() => props.addproduct(e)} className='btn btn-sm btn-outline-info'>Buy Now</button>
+           </div>
           </div>
-              <div className=' a3 card float-right col-xm-3 text-center shadow'>
-              <h1>CheckOut</h1>
-              </div>
-          </div>
+ })
 
-        </div>
+
+  return <div className='a1 container card shadow'>
+          <div className='row justify-content-center '>
+
+         {Items}
+         </div>
+         </div>
 }
+
+
+
 
 const mapStateToProp = (state) => {
-  return {
-    macbook: state.Products
-  }
+  return  { items: state}
 }
-export default connect(mapStateToProp)(ItemList)
+export default connect(mapStateToProp, {addproduct: Add})(ItemList);
