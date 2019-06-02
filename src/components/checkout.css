@@ -2,6 +2,8 @@
   height:300px;
   width:490px;
   margin-top: 80px;
+  margin-bottom: 200px;
+
 }
 .b2{
   font-size: 20px;
@@ -15,18 +17,17 @@
   background: linear-gradient(to right, #DD2476, #FF512F);
 
 margin-right:140px;
- width: 110px;
+ width: 120px;
  color: white;
  border-radius: 12px 12px 12px 12px;
 }
 .b8{
   color: white;
   border-radius: 12px 12px 12px 12px;
-  background: #005C97;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  width:170px;
+background: #bc4e9c;
+background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+background: linear-gradient(to right, #f80759, #bc4e9c);
+  width:130px;
 }
 .b5{
   align-items: center;

@@ -2,10 +2,10 @@ import { combineReducers } from 'redux'
 
 const productReducer = () => {
   return ([
-    {id:0,name :'Macbook Air', price:73999.00, imgpath:'macbookair.jpg'},
-    {id:1,name: 'Macbook Air Gold', price:106990.00, imgpath:'macbookairgold.jpg'},
-    {id:2,name:'Macbook Air Ratina', price:129990.00, imgpath:'macbookairnew.jpg'},
-    {id:3,name:'Macbook Pro', price:132990.00,imgpath:'macbookpro.jpg'}])
+    {id:0,name :'MacBook Air', price:73999.00, imgpath:'macbookair.jpg'},
+    {id:1,name: 'MacBook Air Gold', price:106990.00, imgpath:'macbookairgold.jpg'},
+    {id:2,name:'MacBook Air Ratina', price:129990.00, imgpath:'macbookairnew.jpg'},
+    {id:3,name:'MacBook Pro', price:132990.00,imgpath:'macbookpro.jpg'}])
 }
 
 const AddReducer = (initialState=[], action) => {
@@ -24,15 +24,15 @@ const DeleteReducer = (initialState=[], action) => {
 
 const TotalReducer = (initialState=[], action) =>{
   if(action.type==='TOTAL'){
-   initialState = initialState + action.payload
+    return action.payload
   }
   return initialState;
 }
 
 
 export default combineReducers({
-    Products: productReducer,
+     Products: productReducer,
      AddedProduct: AddReducer,
-     DeletedProduct: DeleteReducer,
-     TotalAmount: TotalReducer
+     TotalAmount: TotalReducer,
+     DeletedProduct: DeleteReducer
 })

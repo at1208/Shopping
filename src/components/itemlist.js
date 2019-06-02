@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { Add } from '../actions/index'
 
 const ItemList = (props) => {
-console.log(props)
+
  const Items = props.StateToPropData.map((e) => {
    return <div className='a2 card shadow text-center ' key={e.id}>
           <img className= 'a3' src={e.imgpath} alt=''  />
@@ -15,7 +15,7 @@ console.log(props)
            </div>
           </div>
  })
- console.log(props)
+
 
 
   return <div className='a1 container card shadow'>

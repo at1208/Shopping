@@ -10,10 +10,10 @@ export const Delete = (product) => {
     payload: product
   }
 }
-export const TotalAmount = (price) => {
+export const TotalAmount = (totalprice) => {
   return {
     type: 'TOTAL',
-    payload: price
+    payload: totalprice
 
   }
 }
