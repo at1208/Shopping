@@ -1,14 +1,15 @@
 .a1{
-  height: 300px;
+  height: 565px;
 
-  background: #CB356B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #CB356B;
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+background: linear-gradient(to right, #BD3F32, #CB356B);
 
 }
 .a2{
   margin-top:17px;
-  margin-right:3px;
+
+  margin: 10px;
   height:261px;
   width:200px;
 }
@@ -17,4 +18,18 @@ background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, F
 }
 .a4{
   height:600px
+}
+.w2{
+  border-radius: 61px 61px 61px 61px;
+  background:white;
+
+}
+.w1{
+  border-radius: 11px 11px 11px 11px;
+  background: red;
+  color:white;
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+  background: linear-gradient(to right, #93291E, #ED213A);
+
+
 }

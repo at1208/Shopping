@@ -8,7 +8,6 @@ const App = () => {
   return <div>
         <Header />
         <ItemList />
-        <Checkout />
          </div>
 }
 export default App;
