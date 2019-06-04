@@ -4,3 +4,24 @@ background: -webkit-linear-gradient(to right, #89216B, #DA4453);
 background: linear-gradient(to right, #89216B, #DA4453);
 
 }
+.w2{
+  border-radius: 61px 61px 61px 61px;
+  background:white;
+
+}
+.w1{
+  border-radius: 11px 11px 11px 11px;
+  background: red;
+  color:white;
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+  background: linear-gradient(to right, #93291E, #ED213A);
+
+}
+.g1{
+  width: 280px;
+  height:100px;
+}
+.g2{
+  margin-left: 580px;
+  float: none;
+}

@@ -10,7 +10,7 @@ background: linear-gradient(to right, #BD3F32, #CB356B);
   margin-top:17px;
 
   margin: 10px;
-  height:261px;
+  height:265px;
   width:200px;
 }
 .a3{
@@ -18,18 +18,4 @@ background: linear-gradient(to right, #BD3F32, #CB356B);
 }
 .a4{
   height:600px
-}
-.w2{
-  border-radius: 61px 61px 61px 61px;
-  background:white;
-
-}
-.w1{
-  border-radius: 11px 11px 11px 11px;
-  background: red;
-  color:white;
-  background: -webkit-linear-gradient(to right, #93291E, #ED213A);
-  background: linear-gradient(to right, #93291E, #ED213A);
-
-
 }

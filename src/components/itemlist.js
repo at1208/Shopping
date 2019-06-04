@@ -11,7 +11,9 @@ const ItemList = (props) => {
           <div className='card-body'>
           <h6 className='card-title'>{e.name}</h6>
           <h6 className='card-text'>₹{e.price}</h6>
-          <button onClick={() => props.addaction(e)} className='btn btn-sm btn-outline-info'>Buy Now</button>
+           <button className='float-left btn-sm btn-outline-info'>-</button>
+          <button onClick={() => props.addaction(e)} className=' btn btn-sm btn-outline-info'>Buy Now</button>
+         <button className='float-right btn-sm btn-outline-info'>+</button>
            </div>
           </div>
  })
